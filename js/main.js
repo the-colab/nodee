@@ -99,7 +99,37 @@ $(document).ready(function() {
         $('nav ul').toggleClass('open-menu');
         $('.mobile-menu').toggleClass('close-nav');
     });
-
+    
+	//Know more js
+	$('#show-employment-data').click(function() {
+		  $('#employment-data').slideToggle();
+		  if ($('#show-employment-data').text() == "Know More") {
+			$(this).text("Know Less")
+		  } else {
+			$(this).text("Know More")
+		  }
+	});
+   
+   $('#show-exp-data').click(function() {
+		  $('#exp-data').slideToggle();
+		  if ($('#show-exp-data').text() == "Know More") {
+			$(this).text("Know Less")
+		  } else {
+			$(this).text("Know More")
+		  }
+	});
+	
+  $('#show-slide-data').click(function() {
+		  $('#slide-more-data').slideToggle();
+		  if ($('#show-slide-data').text() == "Know More") {
+			$(this).text("Know Less")
+		  } else {
+			$(this).text("Know More")
+		  }
+	});
+	
+	
+	
     // Slider js	
     var carousel = $('#clients-slider').owlCarousel({
         loop: true,

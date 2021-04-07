@@ -1691,6 +1691,9 @@ p.desig-text {
     text-align: center;
     margin-top: 25px;
 }
+.moretext {
+  display: none;
+}
 
 
 /** Profile page css start here **/
@@ -1709,7 +1712,9 @@ p.desig-text {
     width: 800px;
     margin: 0 auto;
 }
-
+.form-group {
+    margin-bottom: 25px;
+}
 .form-control {
     display: block;
     width: 100%;
