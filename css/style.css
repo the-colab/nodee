@@ -46,6 +46,10 @@ ul {
     color: #e63946;
 }
 
+.grey-color {
+    color: #DEDEDE;
+}
+
 .button-primary,
 .button-primary:hover {
     background: #1d3557;
@@ -87,6 +91,10 @@ ul {
     min-height: 100vh;
     background-size: cover;
     background-position: top;
+}
+
+.zif-top-bg-section {
+    background-image: url(../images/banner-bg-zif.jpg);
 }
 
 .padd-60 {
@@ -145,6 +153,12 @@ nav ul li a.active {
     justify-content: center;
 }
 
+.banner-text-wrap {
+    background: rgb(255,255,255,0.75);
+    padding: 1em;
+        
+}
+
 .heading-wrap {
     font-size: 60px;
     color: #000;
@@ -163,7 +177,6 @@ nav ul li a.active {
 }
 
 .banner-wrap p {
-    width: 860px;
     line-height: 29px;
     font-size: 16px;
     margin-top: 14px;
